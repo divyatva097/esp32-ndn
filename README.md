@@ -43,20 +43,3 @@ Surviving Node PDR: 100% (5 packets received vs 4 expected).
 
 Conclusion: The mesh topology successfully isolated the fault. The failure of one node had zero negative impact on the packet delivery ratio of the remaining active nodes, validating the system's fault-tolerant architecture.
 
-```markdown
-## Network Performance and Hardware Results
-
-**Figure 1: Baseline Performance (Live Traffic from 2 Neighbors)**
-![Baseline Performance](WhatsApp Image 2026-06-16 at 22.51.41.jpeg)
-
-**Figure 2: Fault Tolerance Test (Network survives node failure)**
-![Fault Tolerance](image_c9c323.png)
-
-**Figure 3: Security Verification (DEADBEEF Digital Signature)**
-![Security Signature](image_c85a22.png)
-
-**Figure 4: Custom NDN TLV Encoding Logic**
-![NDN Encoding](image_c7084c.png)
-
-**Figure 5: Physical Hardware Setup (ESP32 Swarm)**
-![Hardware Setup](Fig_4.jpeg)
